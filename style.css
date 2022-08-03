@@ -1,0 +1,200 @@
+:root {
+  --text-color: #470304;
+  --background-color: #5ce1e6;
+  --red: #ff4a4a;
+  --yellow: #ffec3f;
+  --green: #b8e523;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.budgie-buddies {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: underline 1px;
+  text-align: center;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "";
+  color: var(--text-color);
+  font-family: "Patrick Hand", cursive;
+}
+
+img {
+  width: 380px;
+}
+
+#gif {
+  margin-left: 7.5rem;
+}
+
+#budgie-1 {
+  margin-right: 7.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 104px;
+  line-height: 140px;
+}
+
+h2 {
+  font-size: 53px;
+}
+
+a {
+  font-size: 2rem;
+}
+
+p {
+  text-align: center;
+  max-width: 50ch;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.about {
+  margin-top: 20%;
+}
+
+span {
+  font-size: 3rem;
+}
+
+.container {
+  margin-top: 7em;
+}
+
+.text-image,
+.about {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.team {
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 20%;
+}
+
+.team a {
+  text-decoration: none;
+}
+
+.team a:hover {
+  text-decoration: underline;
+}
+
+.team img {
+  width: 280px;
+}
+
+.team-images {
+  display: flex;
+  justify-content: center;
+}
+
+.team-image-text {
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 59px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#button-1 {
+  background-color: var(--red);
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+
+#button-1:hover {
+  background-color: white;
+  color: var(--red);
+}
+
+#button-2 {
+  background-color: var(--yellow);
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+
+#button-2:hover {
+  background-color: white;
+  color: var(--yellow);
+}
+
+#button-3 {
+  background-color: var(--green);
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+
+#button-3:hover {
+  background-color: white;
+  color: var(--green);
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  p {
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    width: 10em;
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    font-size: 0.8rem;
+  }
+  .text-image {
+    display: flex;
+    justify-content: center;
+  }
+  #img-1 {
+    flex-basis: 0;
+  }
+
+  #img-2 {
+    flex-basis: 0;
+  }
+
+  #img-3 {
+    flex-basis: 0;
+  }
+}
